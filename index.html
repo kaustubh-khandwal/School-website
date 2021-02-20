@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -28,15 +29,84 @@
             </ul>
         </div>
     </nav>
-    <section id="School">
+    <section id="School" class="sections">
         <marquee class="marquee">School</marquee>
-    <iframe width="100%" height="600a" src="https://www.youtube.com/embed/VEO5t_lhgC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-    <section id="Contact us">
-    <marquee class="marquee">Contact us</marquee>
-    
+        <iframe width="100%" height="600a" src="https://www.youtube.com/embed/VEO5t_lhgC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="Campus life" class="sections">
+        <marquee class="marquee">Campus life</marquee>
+        <span>
+            <div class="campuslife_mainDiv"> <img class="img-responsive" src="Assembly.jpg">
+                <h4 class="text-capitalize"><kbd>school assembly</kbd></h4>
+                <hr>
+                <h5 class="text-success text-centre text-capitalize"></h5>
+                <p class="text-muted text-left">Assembly is the schools largest open area, and most of the competetions and functions are held here. </p>
+            </div>
+        </span>
+        <span>
+            <div class="campuslife_mainDiv"> <img class="img-responsive" src="Library.jpg">
+                <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize"></h5>
+                <p class="text-muted text-left">This library has every book present in india, this is th schools silent place and I like to offen visit it. </p>
+            </div>
+        </span>
+    </section>
+
+    <section id="Achievements" class="sections">
+        <marquee class="marquee">Achievements</marquee>
+        <div class="bg-primary Achievements_head" data-toggle="collapse" data-target="#science_exibit"> <span class="glyphicon glyphicon-film"></span><i class="fa fa-sort-desc"></i> inter-school science exibition</div>
+        <div id="science_exibit" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="science%20exibit.jpg" class="img-responsive img-thumbnail"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize"> </h5>
+                <p>came first in inter-school science exibition</p>
+            </div>
+        </div>
+        <div class="bg-primary Achievements_head" data-toggle="collapse" data-target="#basketball"> <span class="glyphicon glyphicon-film"></span><i class="fa fa-sort-desc"></i> inter-school basketball championship</div>
+        <div id="basketball" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="Basketball.jpg" class="img-responsive img-thumbnail"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize"> </h5>
+                <p>came first in inter-school basketball championship</p>
+            </div>
+        </div>
+        <div class="bg-primary Achievements_head" data-toggle="collapse" data-target="#debate"><span class="glyphicon glyphicon-film"></span><i class="fa fa-sort-desc"></i> Inter-school debate </div>
+        <div id="debate" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="debate.png" class="img-responsive img-thumbnail"> </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize"> </h5>
+                <p>came second in inter-school debate competetion held on KPS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="What’s New" class="sections">
+        <marquee class="marquee">What's New</marquee>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-sm-12 col-xs-12 new_li">
+                <h1>New school canteen</h1>
+                <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="canteen.jpg">
+                <p class="lsit-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                Our new canteen is a way more colourful than previous and now we don't have to take our food from the counter, other staffs will serve us. and we can also decide the menu of  the week.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-success col-lg-12 col-sm-12 col-xs-12 new_li">
+                <h1>Mid-brain session</h1>
+                <img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="mid-brain.jpg">
+                <p class="lsit-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                New mid-brain session has started , in which teachers help students to increase their brain power. these students can also guess a crad or color of anything while blindfolded.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Contact us" class="sections">
+        <marquee class="marquee">Contact us</marquee>
+
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59494.808083305266!2d81.62147889887905!3d21.254618106870232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28de1463c7cfc1%3A0x20fa4baa57a0b8e6!2sKaanger%20Valley%20Academy!5e0!3m2!1sen!2sin!4v1613312514808!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <br> <br>
+        <br> <br>
         <img src="anjali_mam.jpg" margin-left="500px" id="anjalimam"> <label> Principal name:<div>Mrs. Anjali muley</div></label>
     </section>
 </body>

@@ -4,3 +4,41 @@ margin-left: 500px;
 .marquee{
     font-size: 30px;
 }
+.campuslife_mainDiv {
+    border: 1px solid #c7c7c7;
+    margin-left: 420px;
+    width: 350px;
+    float: none;
+}
+
+.campuslife_mainDiv img {
+    width: 300px;
+    height: 300px;
+}
+
+.campuslife_mainDiv hr {
+    width: 230px;
+}
+
+.campuslife_mainDiv h5,
+.campuslife_mainDiv p {
+    margin-left: 20px;
+}
+.campuslife_mainDiv h4{
+    
+}
+.Achievements_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.Achievements_head i {
+    float: right;
+}
+.sections{
+    padding: 100px;
+}
